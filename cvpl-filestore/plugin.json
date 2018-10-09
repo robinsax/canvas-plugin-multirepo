@@ -1,0 +1,9 @@
+{
+	"dependencies": [],
+	"storage_dir": "../filestore",
+	"cache_size_mb": 200,
+	"tuning": {
+		"hit_threshold": 5,
+		"filesize_threshold_mb": 20
+	}
+}

@@ -1,0 +1,105 @@
+//	::include definitions
+
+body {
+	.landing {
+		margin-top: -47px;
+
+		.subtext {
+			padding-right: 40%;
+			margin-bottom: 15px;
+			line-height: 1.6;
+		}
+
+		.brand svg {
+			width: 50%;
+			max-width: 350px;
+		}
+
+		button { margin-top: 20px; }
+	}
+
+	.more {
+		.box-shadow();
+		padding: 50px 0px;
+		background-color: @text;
+
+		.code-sample { height: 450px; }
+		code {
+			.inset-shadow();
+			overflow-x: auto;
+		}
+
+		.textual:hover { background-color: @text; }
+
+		.tab {
+			display: inline-block;
+			width: calc(33.3333333% - 20px);
+			margin: 10px;
+			border-top-right-radius: 3px;
+			border-top-left-radius: 3px;
+			border-left: 1px solid @theme2;
+			border-right: 1px solid @theme2;
+			border-top: 1px solid @theme2;
+			color: @theme2;
+			line-height: 1;
+			transition: 0.5s border, 0.5s color;
+			letter-spacing: 2px;
+			font-size: 10pt;
+			
+			cursor: pointer;
+
+			text-transform: uppercase;
+			padding: 10px;
+
+			&.current, &:hover {
+				color: @background;
+				border-left: 1px solid @background;
+				border-right: 1px solid @background;
+				border-top: 1px solid @background;
+			}
+		}
+
+		h3 {
+			color: @background;
+			text-align: right;
+		}
+
+		h1, h2, p, ul { color: @background; }
+	}
+
+	.finale {
+		background-color: @background;
+		* { color: @text !important; }
+	}
+	
+	@media screen and (max-width: @breakpoint1) {
+		.home {
+			& > * {
+				min-height: 100vh;
+				height: auto;
+
+				padding-top: 50px;
+			}
+
+			.vertical-center {
+				top: 0px;
+				transform: none;
+			}
+		}
+
+		.landing {
+			padding-top: 20vh; 
+
+			.subtext { padding-right: 10px; }
+			.brand { text-align: center !important; }
+		}
+
+		.more {
+			.tab {
+				font-size: 6pt;
+				margin: 10px 3px;
+				width: calc(33.3333333% - 6px);
+			}
+		}
+	}
+}

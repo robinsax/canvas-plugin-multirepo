@@ -1,0 +1,6 @@
+{
+	"dependencies": [
+		"uiutils", "users"
+	],
+	"storage_dir": "../"
+}

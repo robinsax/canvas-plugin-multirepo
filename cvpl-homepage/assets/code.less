@@ -1,0 +1,30 @@
+body pre {
+	margin: 5px;
+	
+	code {
+		padding: 0px;
+		background-color: @text;
+		color: @background;
+
+		div {
+			padding: 0px 10px;
+			&:not(:last-child) { height: 18px; }
+			&:first-child { 
+				padding-top: 10px; 
+				height: 28px;
+			}
+			&:nth-last-child(2) {
+				padding-bottom: 10px;
+				height: 28px;
+			}
+
+			&:nth-child(even) {
+				background-color: @borders;
+			}
+		}
+
+		.kw { color: @theme1; }
+		.cm { color: @theme2; }
+		.msc { color: @misc; }
+	}
+}

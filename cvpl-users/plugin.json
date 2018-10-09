@@ -1,0 +1,6 @@
+{
+	"dependencies": [],
+	"login_target": "/",
+	"api_key_param": "auth_key",
+	"api_key_header": "X-API-Key"
+}

@@ -1,0 +1,19 @@
+::font palanquin palanquin-regular.ttf
+::font palanquin-b palanquin-semibold.ttf
+
+#324D5C 	-> background
+#fefefe 	-> text, subtext
+#f0f0f0		-> input, focused-input, borders
+#E37B40 	-> theme1, theme3, visited-link
+#DE5B49 	-> theme2, link, highlight, title, error
+#46B29D		-> misc
+
+orange		-> warning
+green 		-> success
+
+palanquin 	-> text-font
+palanquin-b	-> title-font
+
+1000px 		-> breakpoint1
+700px		-> breakpoint2
+450px		-> breakpoint3

@@ -1,0 +1,6 @@
+{
+	"dependencies": [],
+	"worker_count": 1,
+	"max_queue_size": 5,
+	"poll_time": 20
+}
