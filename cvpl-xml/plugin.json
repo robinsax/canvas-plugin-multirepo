@@ -1,0 +1,9 @@
+{
+	"dependencies": [],
+	"prefer_xml": false,
+	"pretty_responses": true,
+	"strip_whitespace": true,
+	"normalize_whitespace": true,
+	"default_encoding": "utf-8",
+	"xml_placeholder_values_in_json": true
+}

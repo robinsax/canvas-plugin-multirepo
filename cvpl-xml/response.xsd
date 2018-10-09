@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="response">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="status"/>
+				<xs:element name="data">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:any minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
